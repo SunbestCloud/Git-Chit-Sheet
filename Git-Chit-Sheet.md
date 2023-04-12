@@ -48,7 +48,9 @@ git mv						#Rename a file
 git stash 					#Allows you to switch to another branch to work on something else
 
 git diff-tree -r {commit hash} 		#List of files that has changed is a particular commit
+
 # -r allows the command to list individual files
+
 # commit hash will list all the files that were changed or added in that commit
 
 # Only downloads new data from a remote repository
@@ -60,10 +62,15 @@ git pull origin master
 
 # Git Config
 git config --global user.username <github username>
+  
 git config --global user.username  "amb"
+  
 git config --global user.email ' amb@gmail.com'
+  
 OR
+  
 git config --global user.name  "amb"
+  
 git config --global user.email  amb@gmail.com
 
 git config --list
@@ -92,13 +99,21 @@ git log -n 2
 
 # Git Instructions Step-by-Step
 mkdir git_dir
+  
 mkdir /git_dir/MyRepo
+  
 git init
+  
 touch master.txt
+  
 git status
+  
 git add .
+  
 git commit -m "Commiting my first Repo"
+  
 git status
+  
 git log
 
 # Login to Github
@@ -130,6 +145,3 @@ git checkout <branchname>
 git branch -D <branchname>
 git push -u origin -d remote_branch_name
 git branch -d  local_branch_name
-
-
-
