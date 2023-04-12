@@ -70,14 +70,23 @@ git config --list
 
 # Resolve Merge Conflict
 git log --merge 			    #List of commits that are causing conflict
+  
 git diff					        #Finding differences between the states of repo
+  
 git checkout			    	  #Undo changes made to the file, or for changing branches. 
+  
 git reset --mixed 			  #Undo Changes to the working directory and staging area
+  
 git merge --abort			    #Exiting merge process and returning back to the state before the merging began
+  
 git reset					        #Used at the time merge conflict to reset the conflicted files to their original state
+  
 git pull --rebase origin <branchname>
+  
 git mergetool
+  
 git rebase --continue
+  
 git log -n 2
 
 
