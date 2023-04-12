@@ -1,17 +1,17 @@
 # Git Commands
-git config					#Configure the username and email address
+git config									#Configure the username and email address
 
-git init  					#Initialize a Local Git Repository
+git init  									#Initialize a Local Git Repository
 
-git init --bare				#No .git subfolder. Does not contain any source files
+git init --bare							#No .git subfolder. Does not contain any source files
 
-git add . 					#Add one or more files to staging area
+git add . 									#Add one or more files to staging area
 
-git commit -m "Message" 	#Commit Changes to head
+git commit -m "Message" 		#Commit Changes to head
 
-git status					#Displays the state of the Working directory and staging area
+git status									#Displays the state of the Working directory and staging area
 
-git diff 					#View the changes made to the File
+git diff 										#View the changes made to the File
 
 git log
 
@@ -128,10 +128,15 @@ git push -u origin master
 
 # SSH-KEY
 Your Profile -settings - ssh and GPG keys - New SSkey
+	
 ssh -T git@github.com
+	
 Go to Github - New create new repo
+	
 Initialize read me
+	
 git clone (ssh url)
+	
 git push -u origin master
 
 # Create Branch
