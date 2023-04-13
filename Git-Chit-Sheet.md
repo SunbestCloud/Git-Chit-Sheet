@@ -122,7 +122,9 @@ New - Repo - Repo Name (MyRepo)- Description - Private/Public - Create Repo
 # - To Push a file from your local system onto Github
 # - First, connect to the local repository to your remote repository:
 git remote add origin <copied web address>
+	
 git remote -v
+	
 # - Second, push your file to the remote repository:
 git push -u origin master
 
@@ -141,6 +143,7 @@ git push -u origin master
 
 # Create Branch
 git branch <branchname>
+	
 git branch -v
 
 # Check Out Branch
@@ -148,5 +151,7 @@ git checkout <branchname>
 
 # Delete Branch
 git branch -D <branchname>
+	
 git push -u origin -d remote_branch_name
+	
 git branch -d  local_branch_name
