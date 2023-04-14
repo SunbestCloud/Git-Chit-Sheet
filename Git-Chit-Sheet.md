@@ -3,11 +3,11 @@ git config									#Configure the username and email address
 
 git init  									#Initialize a Local Git Repository
 
-git init --bare							#No .git subfolder. Does not contain any source files
+git init --bare									#No .git subfolder. Does not contain any source files
 
 git add . 									#Add one or more files to staging area
 
-git commit -m "Message" 		#Commit Changes to head
+git commit -m "Message" 							#Commit Changes to head
 
 git status									#Displays the state of the Working directory and staging area
 
